@@ -42,7 +42,6 @@ export default class UrlBuilder {
       `providers/microsoft.insights/metricdefinitions?api-version=${apiVersion}`;
     }
 
-
     return `${baseUrl}/${resourceGroup}/providers/${metricDefinition}/${resourceName}` +
       `/providers/microsoft.insights/metricdefinitions?api-version=${apiVersion}`;
   }
